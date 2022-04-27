@@ -1,0 +1,12 @@
+.sideMenu{
+    float: left;
+    width: 25%;
+    color: black;
+}
+.sideMenu ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+    color: blue !important;
+}

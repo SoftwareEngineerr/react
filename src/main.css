@@ -1,0 +1,745 @@
+.Header ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: #131921;
+}
+.Header .return{
+    float: right;
+    color: white;
+    margin: 10px;
+    border-radius: 4px;
+}
+.Header .return:hover{
+    border: 1px solid white;
+    
+}
+.Header ul li{
+        text-align: center;
+}
+.Header .Menu2nd{
+    background-color: #232f3e;
+    color: white;
+    width: 100%;
+    padding: 8px 10px;
+    height: auto;
+}
+.Header .image123{
+    height: 50px;
+    margin-top: -10px;
+    float: left;
+    width: 115px;
+    margin-left: 12px;
+    border-radius: 3px;
+}
+.Header .heading{
+    width: 120px;
+    margin: 0px;
+    text-align: center;
+    margin-left: 155px;
+    position: absolute;
+    border-radius: 3px;
+    top: 4px;
+    height: 47px;
+    overflow: hidden;
+    margin-top: 0px;
+    padding: 3px;
+}
+.Header .search{
+    background: #febd69;
+    height: 42px;
+    width: 57px;
+    margin-top: -4px;
+    margin-left: -6px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.Header .select{
+    width: auto;
+    height: 43px;
+    margin-right: -6px;
+    background: #f3f3f3;
+    padding: 8px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-right: 1px solid black;
+}
+.Header .option{
+    font-size: 12px;
+}
+.Header .heading:hover{
+    border: 1px solid white;
+}
+.Header .image123:hover{
+    border: 1px solid white;
+}
+.Header .smallheading{
+    float: left;
+    color: white;
+    font-size: 10px;
+    margin-bottom: -5px;
+    margin-left: 9px;
+}
+.Header .Largeheading{
+    float: left;
+    color: white;
+    font-size: 19px;
+}
+.Header .input{
+    margin: 5px;
+    width: 555px;
+    padding-left: 10px;
+    border: 0px;
+    height: 41px;
+}
+.Header .location{
+    color: white;
+    float: left;
+    height: 36px;
+    font-size: 27px;
+}
+.home .pad{
+    float: left;
+    padding: 9px;
+}
+.Header .Menu2nd span{
+    padding: 5px 10px;
+}
+.Header .Menu2nd a{
+    text-decoration: none;
+    color: white;
+}
+.Header .Menu2nd span:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.Header ul li a{
+    padding: 7px;
+    margin: 0px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.Header ul li{
+    padding: 7px;
+    margin: 0px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.Header ul li:hover{
+    border-bottom: 1px solid white;
+}
+.Header .content{
+        float: left;
+        font-size: 20px;
+        color: white;
+        margin-top: 13px !important;
+        padding: 0px;
+        margin: 0px;
+        margin-left: 17px;
+}
+.Header button{
+    background-color: rgb(243 243 30);
+    float: right;
+    margin-top: 2px;
+    border: 0px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.Header #Badge{
+    display: block;
+    position: relative;
+}
+.MuiBadge-anchorOriginTopRightRectangle{
+    top: 19px !important;
+    right: 100px !important;
+}
+.Header .font{
+    font-size: 32px;
+    color: white;
+    float: right;
+    margin-top: 15px;
+    margin-right: 16px;
+}
+.Header h1{
+    width: 100%;
+    background-color: rgb(167, 164, 164);
+    margin: 0px;
+    text-align: center;
+    padding: 10px;
+}
+.sideMenu{
+    float: left;
+    width: 20%;
+    color: black;
+    padding-left: 10px;
+    overflow: hidden;
+}
+@media screen and (max-width: 1000px) {
+    .sideMenu{
+        width: 414px;
+        opacity: 0.96;
+        background-color: white;
+        position: absolute;
+    }
+    .sideMenu .heading{
+        text-align: center;
+        font-size: 29px;
+        float: left;
+    }
+    .sideMenu input[type = text]{
+        display: none;
+    }
+    .sideMenu ul li a{
+        font-size: 19px;
+    }
+    .sideMenu .cross{
+        display: block !important;
+    }
+  }
+  .sideMenu .cross{
+    font-size: 25px;
+    float: left;
+    display: none;
+  }
+.sideMenu input[type = text]{
+    border-radius: 4px;
+    width: 96%;
+    border: 0.5px solid;
+    padding: 5px;
+    margin-top: 10px;
+}
+.sideMenu ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+    color: blue !important;
+}
+.sideMenu ul li{
+    display: block;
+    margin: 0px;
+    padding: 5px;
+}
+.sideMenu ul li a{
+    text-decoration: none;
+}
+.sideMenu .heading{
+        font-size: 20px;
+}
+.sideMenu .black{
+    background-color: black;
+    margin-right: 4px;
+    width: 21px; 
+    border-radius: 50%;
+    float: left;
+}
+.sideMenu .grey{
+    background-color: grey;
+    color: grey;
+    margin-right: 4px;
+    width: 21px; 
+    border-radius: 50%;
+    float: left;
+}
+.sideMenu .green{
+    background-color: green;
+    color: green;
+    width: 21px; 
+    margin-right: 4px;
+    border-radius: 50%;
+    float: left;
+}
+.sideMenu .white{
+    background-color: white;
+    margin-right: 4px;
+    color: white;
+    width: 21px; 
+    border-radius: 50%;
+    float: left;
+}
+.sideMenu .blue{
+    background-color: blue;
+    color: blue;
+    width: 21px; 
+    border-radius: 50%;
+    margin-right: 4px;
+    float: left;
+}
+.sideMenu .red{
+    background-color: red;
+    margin-right: 4px;
+    color: red;
+    width: 21px; 
+    border-radius: 50%;
+    float: left;
+}
+.sideMenu .all{
+    text-align: left;
+    float: left;
+    margin-top: -0px;
+    padding-right: 10px;
+    clear: both;
+}
+.pant{
+    float: left;
+    width: 79%;
+}
+.pant .Product{
+    float: left;
+    margin: 2px;
+    padding: 0px;
+    height: 450px;
+    width: 24%;
+    border-radius: 8px;
+    border: 1px solid #f3f3f3;
+}
+.Product .col1{
+    padding: 0px;
+    background: white
+}
+.Product .best{
+    width: atuo;
+    background: #e67a00;
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 97px;
+    float: left;
+    border-bottom-right-radius: 18px;
+}
+.Product .title{
+    float: left;
+    margin-left: 100px;
+    transition: 1s;
+    opacity: 0;
+    font-size: 14px;
+}
+.Product .prev{
+    margin-top: -159px;
+    position: absolute;
+    color: #cccccc;
+  /*  box-shadow: 5px 10px #888888;*/
+    margin-left: 10px;
+    display: none;
+    font-size: 20px;
+}
+.Product .ne{
+    margin-top: -159px;
+    position: absolute;
+    color: #cccccc;
+    margin-left: 232px;
+    display: none;
+    font-size: 20px;
+    }
+.Product .sub{
+    top: -0.3em;
+}
+.Product .priceContianer{
+    margin-top: 0px;
+}
+.Product .quantity{
+    clear: both;
+    font-size: 15px;
+    color: #B12704;
+    margin-top: 21px;
+}
+.Product .ship{
+    float: left;
+    clear: both;
+    margin-left: 3px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.Product .best:hover + .title{
+    opacity: 1;
+}
+.Product :hover + .ne{
+    display: block;
+}
+.pant :hover + .prev{
+    display: block;
+}
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #b1b1b1b0;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .active, .dot:hover {
+    background-color: rgb(246, 243, 243);
+    border: 0.5px solid;
+  }
+  .dotsMainContianer{
+    margin-top: -24px !important;
+    position: absolute;
+    margin: auto;
+    display: block;
+    text-align: center;
+    width: 270px;
+  }
+  .Product .price{
+    float: left;
+    font-size: 20px;
+    margin-left: 5px;
+  }
+.pant .Product img{
+    width: auto;
+    max-width: 100%;
+    max-height: 250px;
+    display: block;
+    margin: auto;
+    transition: 1s;
+}
+.pant .Product img:hover{
+    max-height: 253px;
+}
+.backG{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 14px;
+}
+.pant .Product .image{
+    margin-bottom: 5px;
+    padding-top: 10px;
+    background-color: whitesmoke;
+}
+.pant .Product .content{
+    height: 70px;
+    margin-top: 10px;
+}
+.pant .Product .content:hover{
+    color: #C45500!important;
+}
+.pant .Product #select{
+    width: 95%;
+    margin: auto;
+    display: block;
+    height: 40px;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+}
+.pant .Product .butn{
+    background-color: #70a401!important;
+    width: 98%;
+    height: 40px;
+    margin-top: 8px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+}
+.pant .Product #Add{
+    text-align: center;
+    float: left;
+    margin: 0px;
+    color: white;
+}
+.pant .Product #price{
+    text-align: right;
+    float: right;
+    padding-right: 10px;
+    margin: 0px;
+    margin-top: -24px;
+}
+.Cart{
+    width: 20%;
+    height: 544px;
+    background-color: blueviolet;
+    position: absolute;
+    right: 0px;
+    display: block;
+    transition: 0.3s;
+    top: 118px;
+}
+.home{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.112);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.slide{
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+    border: 0px;
+}
+.slideImage{
+    border: 0px;
+}
+.home .shavecontent{
+   margin-top: 30px;
+   float: left;
+   color: rgb(5 181 250);
+   font-size: 13px;
+}
+.home .shavecontent:hover{
+    color: #C45500;
+    text-decoration: underline;
+}
+.home .shave{
+    width: 83%;
+    height: 294px;
+    margin-top: 15px;
+}
+.home .slideImage{
+    width: auto;
+    height: 174px;
+    margin-top: 15px;
+    margin: auto;
+    display: block;
+    margin-top: 24px;
+    margin-left: 57px;
+}
+.home .smallImage{
+    float: left;
+    width: 48px;
+    margin: 10px;
+    margin-top: 43px;
+    padding: 5px;
+    border-radius: 3px;
+    transition: 12s;
+    height: 50px;
+}
+.home .signIn{
+    background: #ffcb47;
+    height: 32px;
+    width: 272px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    text-shadow: 0 1px 0 #ffe093;
+    font-weight: 500;
+    margin: 5px;
+}
+.home .signIn:hover{
+    background-color: #ffe093;
+}
+.active, .smallImage:hover {
+    border: 1px solid #C45500;
+
+  }
+.home .shave1{
+    width: 83%;
+    height: 294px;
+    margin-top: 15px;
+    margin-left: 22px;
+    color: black;
+}
+.home .start{
+    color: #71d5fc;
+}
+.home .start:hover{
+    color: #C45500;
+}
+.home .centerdiv{
+    margin: auto;
+    display: block;
+}
+.home .centerRow{
+    height: 150px;
+    background-color: white;
+}
+.home .backTotop{
+    height: 40px;
+    background-color: #2a2f34;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+.home .backTotop:hover{
+    background-color:  #37475a;
+}
+.home .books{
+    width: 298px;
+    height: auto;
+    margin-top: 15px;
+}
+.home .Col{
+    padding: 0px;
+    background: white;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 7px;
+}
+.home #col{
+    width: 20.5%;
+}
+.home .ColWithOutBackground{
+    padding: 0px;
+    border-radius: 4px;
+    margin: 7px;
+}
+.home .sign{
+    background-color: white;
+    padding: 17px 9px;
+}
+.home .ship{
+    width: 100%;
+    margin-top: 12px;
+    height: 262px;
+}
+.home .signbutton{
+    width: 100%;
+    background: #ffe000;
+    border: 0px;
+    border-radius: 7px;
+    border: 1px solid #d3d343;
+    padding: 1px;
+    color: #000000d1;
+    margin-top: 12px;
+}
+.home .text{
+    font-size: 20px;
+    margin-left : 8px;
+}
+.home .imagecon{
+    margin-top: 20px;
+}
+.home .image{
+    float: left;
+    width: 50%;
+    height: 115px;
+}
+.home .imagepad{
+    float: left;
+    width: 44%;
+    height: 115px;
+}
+.home .shop{
+    margin-right: -45px;
+    margin-left: 5px;
+}
+.home .smcontianer{
+    background-color: #40e0bb14;
+    float: left;
+    width: 43%;
+    margin: 1px 1px;
+}
+.home .smtext{
+    font-size: 13px;
+    text-align: center;
+    margin-top: 4px;
+}
+.home .smImage{
+    margin: auto;
+    display: block;
+}
+.home .content{
+    float: left;
+    width: 50%;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.home .contentpad{
+    float: left;
+    width: 50%;
+    font-size: 13px;
+    margin-bottom: 10px;
+
+}
+.home .See{
+    float: left;
+    color: rgb(5 181 250);
+    margin-top: 27px;
+    font-size: 13px;
+}
+.home .shavecontent1 {
+    margin-top: 17px;
+    float: left;
+    color: rgb(5 181 250);
+    font-size: 13px;
+}
+.home .shavecontent1:hover {
+    color: #C45500;
+    text-decoration: underline;
+}
+.home .See1{
+    float: left;
+    color: rgb(5 181 250);
+    margin-top: 55px;
+    font-size: 13px;
+    margin-left: 10px;
+}
+.home .See1:hover{
+    color: #C45500;
+    text-decoration: underline;
+}
+.home .Shop{
+    float: left;
+    color: rgb(5 181 250);
+    margin-top: 62px;
+    font-size: 13px;
+}
+.home .Shop:hover{
+    color: #C45500;
+    text-decoration: underline;
+}
+.home .bookscontent{
+    margin-top: 30px;
+}
+.home .sub{
+    font-size: 22px;
+}
+.home .See:hover{
+    color: #C45500;
+    text-decoration: underline;
+}
+.right-arrow{
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 3rem;
+    color: black;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+.left-arrow{
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    font-size: 3rem;
+    color: #000;
+}
+.home .heading{
+    padding: 20px;
+}
+.pant .pagination{
+    text-align: center;
+    position: relative;
+    height: 200px;
+    width: 100px;
+    margin: auto;
+    display: block;
+    clear: both;
+}
+active, .pant .Number: hover{
+   text-decoration: none;
+   background-color: yellow;
+}
+.pant .pagination li{
+    float: left;
+    background: white;
+    padding: 1px 8px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+    color: blue;
+    margin-top: 40px;
+}
